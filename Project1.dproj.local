@@ -2,9 +2,11 @@
 <BorlandProject>
   <Transactions>
     <Transaction>2017.12.11 16:31:17.322,=C:\Users\mamba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2017.12.11 16:31:27.716,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit1.fmx=C:\Users\mamba\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
     <Transaction>2017.12.11 16:31:27.716,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit1.pas=C:\Users\mamba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017.12.11 16:31:27.716,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit1.fmx=C:\Users\mamba\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
     <Transaction>2017.12.11 16:31:28.807,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Project1.dproj=C:\Users\mamba\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017.12.11 16:32:16.334,=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit2.pas</Transaction>
+    <Transaction>2017.12.11 16:32:25.725,C:\Users\mamba\Documents\Embarcadero\Studio\Service\BroadcastReceiver.pas=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit2.pas</Transaction>
   </Transactions>
   <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5" Android="LGK100DQPB89BI"/>
   </ActiveMobileDevice>
