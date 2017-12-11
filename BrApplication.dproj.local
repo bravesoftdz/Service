@@ -7,6 +7,13 @@
     <Transaction>2017.12.11 16:31:28.807,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Project1.dproj=C:\Users\mamba\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2017.12.11 16:32:16.334,=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit2.pas</Transaction>
     <Transaction>2017.12.11 16:32:25.725,C:\Users\mamba\Documents\Embarcadero\Studio\Service\BroadcastReceiver.pas=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit2.pas</Transaction>
+    <Transaction>2017.12.11 16:43:40.589,C:\Users\mamba\Documents\Embarcadero\Studio\Service\BrApplication.dproj=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Project1.dproj</Transaction>
+    <Transaction>2017.12.11 16:46:52.146,=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit3.pas</Transaction>
+    <Transaction>2017.12.11 16:46:52.153,=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Android\Debug\BrService.jar</Transaction>
+    <Transaction>2017.12.11 16:47:21.408,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Android\Debug\BrService.jar=</Transaction>
+    <Transaction>2017.12.11 16:47:21.414,C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit3.pas=</Transaction>
+    <Transaction>2017.12.11 17:20:18.133,=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Unit3.pas</Transaction>
+    <Transaction>2017.12.11 17:20:18.138,=C:\Users\mamba\Documents\Embarcadero\Studio\Service\Android\Debug\BrService.jar</Transaction>
   </Transactions>
   <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5" Android="LGK100DQPB89BI"/>
   </ActiveMobileDevice>

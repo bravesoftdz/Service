@@ -1,0 +1,40 @@
+unit Unit3;
+
+interface
+
+uses
+  System.SysUtils,
+  System.Classes,
+  System.Android.Service,
+  AndroidApi.JNI.GraphicsContentViewText,
+  Androidapi.JNI.Os;
+
+type
+  TDM = class(TAndroidService)
+    function AndroidServiceStartCommand(const Sender: TObject;
+      const Intent: JIntent; Flags, StartId: Integer): Integer;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+uses
+  Androidapi.JNI.App;
+
+function TDM.AndroidServiceStartCommand(const Sender: TObject;
+  const Intent: JIntent; Flags, StartId: Integer): Integer;
+begin
+  Result := TJService.JavaClass.START_NOT_STICKY;
+end;
+
+end.

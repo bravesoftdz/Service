@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0BA69902-1BD6-4B5D-9157-5040C74CD1D4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="BrApplication.dproj">
+            <Dependencies>BrService.dproj</Dependencies>
+        </Projects>
+        <Projects Include="BrService.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BrApplication" DependsOnTargets="BrService">
+        <MSBuild Projects="BrApplication.dproj"/>
+    </Target>
+    <Target Name="BrApplication:Clean" DependsOnTargets="BrService:Clean">
+        <MSBuild Projects="BrApplication.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BrApplication:Make" DependsOnTargets="BrService:Make">
+        <MSBuild Projects="BrApplication.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BrService">
+        <MSBuild Projects="BrService.dproj"/>
+    </Target>
+    <Target Name="BrService:Clean">
+        <MSBuild Projects="BrService.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BrService:Make">
+        <MSBuild Projects="BrService.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BrApplication;BrService"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BrApplication:Clean;BrService:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BrApplication:Make;BrService:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

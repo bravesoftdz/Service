@@ -1,0 +1,13 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Button1: TButton
+    Align = Center
+    Size.Width = 153.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'start service'
+    OnClick = Button1Click
+  end
+end

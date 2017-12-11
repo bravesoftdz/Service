@@ -26,8 +26,7 @@ end;
 
 procedure TMyReceiver.onReceive(context: JContext; intent: JIntent);
 begin
-  Log.d('Broadcast Received = ' +
-        JStringToString(intent.getAction));
+  Log.d('Broadcast Received = ' + JStringToString(intent.getAction));
 end;
 
 end.
